@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>SW-EAT | Γλυκά που σε κάνουν να χαμογελάς</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff5f8;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff6f91, #ff9671);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #ff6f91;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .product h3 {
+            margin: 15px 0 10px;
+        }
+
+        .about {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: #ff6f91;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SW-EAT</h1>
+    <p>Γλυκά που κάνουν τη ζωή πιο… νόστιμη 🍬</p>
+</header>
+
+<section class="about">
+    <h2>Ποιοι είμαστε</h2>
+    <p>
+        Η <strong>SW-EAT</strong> δημιουργεί λαχταριστά γλυκά για μικρούς και μεγάλους.
+        Ζελεδάκια, γλειφιτζούρια και πολλές ακόμα εκπλήξεις,
+        φτιαγμένα με αγάπη και χρώμα!
+    </p>
+</section>
+
+<section>
+    <h2>Τα προϊόντα μας</h2>
+    <div class="products">
+
+        <div class="product">
+            <img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" alt="Ζελεδάκια">
+            <h3>Ζελεδάκια</h3>
+            <p>Μαλακά, πολύχρωμα και απίστευτα νόστιμα!</p>
+        </div>
+
+        <div class="product">
+            <img src="https://cdn-icons-png.flaticon.com/512/3081/3081563.png" alt="Γλειφιτζούρια">
+            <h3>Γλειφιτζούρια</h3>
+            <p>Κλασικές και φρουτένιες γεύσεις που ξετρελαίνουν.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 SW-EAT | All rights reserved 🍭</p>
+</footer>
+
+</body>
+</html>
